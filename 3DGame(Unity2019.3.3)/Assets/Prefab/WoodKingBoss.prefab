@@ -1,0 +1,1254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &560506713614627010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5853984839313403149}
+  m_Layer: 0
+  m_Name: B_woodboss_paper_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5853984839313403149
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560506713614627010}
+  m_LocalRotation: {x: -0.0010711603, y: 0.073617525, z: -0.04670324, w: 0.99619186}
+  m_LocalPosition: {x: -0.047163296, y: -0.000000018979001, z: 1.1121495e-10}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2656091277010949075}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1088191878732797986
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6217961673065557443}
+  m_Layer: 0
+  m_Name: B_woodboss_tongue01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6217961673065557443
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088191878732797986}
+  m_LocalRotation: {x: -0.43458578, y: -0.46670607, z: 0.29958543, w: 0.70962614}
+  m_LocalPosition: {x: -0.020322526, y: 0.22166635, z: 0.02991452}
+  m_LocalScale: {x: 1.9675, y: 1.9674997, z: 1.9674996}
+  m_Children:
+  - {fileID: 4113520138414162780}
+  m_Father: {fileID: 8207977785602750969}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1647654292889085839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2656091277010949075}
+  m_Layer: 0
+  m_Name: B_woodboss_paper_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2656091277010949075
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647654292889085839}
+  m_LocalRotation: {x: -0.21229115, y: 0.28863615, z: 0.93184453, w: -0.057336718}
+  m_LocalPosition: {x: -0.11965019, y: 0.012667106, z: 0.03066827}
+  m_LocalScale: {x: 0.85754913, y: 0.85754883, z: 0.8575489}
+  m_Children:
+  - {fileID: 5853984839313403149}
+  m_Father: {fileID: 6978331212206076493}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1680580922477602831
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4113520138414162780}
+  m_Layer: 0
+  m_Name: B_woodboss_tongue02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4113520138414162780
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680580922477602831}
+  m_LocalRotation: {x: 0.005870571, y: 0.043757837, z: -0.4214703, w: 0.90576684}
+  m_LocalPosition: {x: -0.050056104, y: 0.0000000065814536, z: 0.000000009798549}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3781676166599798813}
+  m_Father: {fileID: 6217961673065557443}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1798400813732754799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3363746763046815612}
+  - component: {fileID: 7770073943156665444}
+  - component: {fileID: 7770073943156665442}
+  - component: {fileID: 7770073943156665445}
+  m_Layer: 0
+  m_Name: WoodKingBoss
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3363746763046815612
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798400813732754799}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.69, z: 0}
+  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_Children:
+  - {fileID: 5943287024832327155}
+  - {fileID: 7051410491250691938}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &7770073943156665444
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798400813732754799}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c0a5acb1b6bab3f4a9ecc2946d9dd125, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!136 &7770073943156665442
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798400813732754799}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.1
+  m_Height: 0.5
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.25, z: 0}
+--- !u!54 &7770073943156665445
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798400813732754799}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1 &2415930001063276070
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9214481357971727706}
+  m_Layer: 0
+  m_Name: B_woodboss_R_hand04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9214481357971727706
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2415930001063276070}
+  m_LocalRotation: {x: -0.022646585, y: -0.26416516, z: -0.0823587, w: 0.9606878}
+  m_LocalPosition: {x: -0.051471423, y: 0.000000014969368, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 641828050245676520}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2493432863263746391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6978331212206076493}
+  m_Layer: 0
+  m_Name: B_woodboss_L_hand02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6978331212206076493
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2493432863263746391}
+  m_LocalRotation: {x: -0.056062166, y: 0.31906357, z: 0.2108643, w: 0.9222753}
+  m_LocalPosition: {x: -0.12484219, y: 0.000000016713141, z: -0.0000000021814615}
+  m_LocalScale: {x: 1.2225249, y: 1.2225249, z: 1.222525}
+  m_Children:
+  - {fileID: 8056998586985620116}
+  - {fileID: 7476064402901009138}
+  - {fileID: 7279365836183914593}
+  - {fileID: 2656091277010949075}
+  m_Father: {fileID: 1886042558517324210}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2587672468259522316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1886042558517324210}
+  m_Layer: 0
+  m_Name: B_woodboss_L_hand01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1886042558517324210
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2587672468259522316}
+  m_LocalRotation: {x: -0.009093818, y: 0.0008296331, z: 0.88988537, w: 0.4560928}
+  m_LocalPosition: {x: -0.25313184, y: -0.06015632, z: -0.012250787}
+  m_LocalScale: {x: 0.9999998, y: 0.99999994, z: 1.0000001}
+  m_Children:
+  - {fileID: 6978331212206076493}
+  m_Father: {fileID: 635908066338261273}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3075627640866584028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4559066503912573467}
+  m_Layer: 0
+  m_Name: B_woodboss_horn_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4559066503912573467
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3075627640866584028}
+  m_LocalRotation: {x: -0.019210707, y: -0.1578862, z: -0.1292101, w: 0.97877866}
+  m_LocalPosition: {x: -0.31170386, y: 0.025338616, z: 0.000024986266}
+  m_LocalScale: {x: 1.0646155, y: 0.9999998, z: 1}
+  m_Children:
+  - {fileID: 6125040038113367553}
+  m_Father: {fileID: 635908066338261273}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3224409322425943979
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6125040038113367553}
+  m_Layer: 0
+  m_Name: B_woodboss_horn_04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6125040038113367553
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3224409322425943979}
+  m_LocalRotation: {x: -0.19334035, y: -0.5622192, z: 0.6621447, w: -0.45617265}
+  m_LocalPosition: {x: -0.22405218, y: -0.0000000124690835, z: 0.000000014478114}
+  m_LocalScale: {x: 2.1190717, y: 0.9999999, z: 1.0000002}
+  m_Children: []
+  m_Father: {fileID: 4559066503912573467}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3403267800052375111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8769305197564066867}
+  m_Layer: 0
+  m_Name: B_woodboss_R_hand08
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8769305197564066867
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3403267800052375111}
+  m_LocalRotation: {x: -0.022646585, y: -0.26416516, z: -0.0823587, w: 0.9606878}
+  m_LocalPosition: {x: -0.051471423, y: 0.000000014969368, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 673625580557925221}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4310861254535777713
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2371422810147586812}
+  m_Layer: 0
+  m_Name: B_woodboss_paper_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2371422810147586812
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4310861254535777713}
+  m_LocalRotation: {x: -0.25615907, y: -0.22974329, z: 0.93871874, w: 0.020191751}
+  m_LocalPosition: {x: -0.14459412, y: -0.015441789, z: 0.031054238}
+  m_LocalScale: {x: 0.87954426, y: 1, z: 1.0000001}
+  m_Children:
+  - {fileID: 2618867042453218095}
+  m_Father: {fileID: 5754461006689298052}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4352641062480882286
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3781676166599798813}
+  m_Layer: 0
+  m_Name: B_woodboss_tongue03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3781676166599798813
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4352641062480882286}
+  m_LocalRotation: {x: 0.001363149, y: 0.018592715, z: -0.23768775, w: 0.97116274}
+  m_LocalPosition: {x: -0.040800866, y: 0.000000005117017, z: 0.0000000061961796}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4113520138414162780}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4407327883902550337
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8033557727335146224}
+  m_Layer: 0
+  m_Name: B_woodboss_leaf_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8033557727335146224
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4407327883902550337}
+  m_LocalRotation: {x: 0.16715364, y: -0.068994395, z: 0.15074031, w: 0.9718934}
+  m_LocalPosition: {x: -0.3215475, y: -0.15250492, z: -0.04188627}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 635908066338261273}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4668181880734737415
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7476064402901009138}
+  m_Layer: 0
+  m_Name: B_woodboss_L_hand05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7476064402901009138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4668181880734737415}
+  m_LocalRotation: {x: -0.28543538, y: 0.17327346, z: 0.008579571, w: 0.9425653}
+  m_LocalPosition: {x: -0.14086825, y: 0.0028270003, z: 0.016532449}
+  m_LocalScale: {x: 0.7576823, y: 0.75768256, z: 0.7576827}
+  m_Children:
+  - {fileID: 3953451858036013269}
+  m_Father: {fileID: 6978331212206076493}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4931013449490994003
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1122768769428812122}
+  m_Layer: 0
+  m_Name: B_woodboss_leaf_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1122768769428812122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4931013449490994003}
+  m_LocalRotation: {x: 0.04077067, y: -0.13753606, z: 0.18043207, w: 0.9730703}
+  m_LocalPosition: {x: -0.3570647, y: -0.24230789, z: -0.07086667}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_Children: []
+  m_Father: {fileID: 635908066338261273}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5036892086129376350
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 635908066338261273}
+  m_Layer: 0
+  m_Name: B_woodboss_body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &635908066338261273
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5036892086129376350}
+  m_LocalRotation: {x: -0.49816793, y: 0.5027104, z: -0.5001699, w: 0.49893987}
+  m_LocalPosition: {x: 0.0018837911, y: -0.064425066, z: -0.00039229266}
+  m_LocalScale: {x: 0.9117848, y: 0.9117848, z: 0.9117848}
+  m_Children:
+  - {fileID: 5940269578687480599}
+  - {fileID: 4559066503912573467}
+  - {fileID: 1886042558517324210}
+  - {fileID: 8033557727335146224}
+  - {fileID: 1122768769428812122}
+  - {fileID: 1137018334010690790}
+  - {fileID: 1568911070818439026}
+  - {fileID: 1987542239627189395}
+  - {fileID: 8207977785602750969}
+  m_Father: {fileID: 5943287024832327155}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5234939227886702860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3953451858036013269}
+  m_Layer: 0
+  m_Name: B_woodboss_L_hand06
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3953451858036013269
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5234939227886702860}
+  m_LocalRotation: {x: 0.054281715, y: -0.2212882, z: -0.034338217, w: 0.97309095}
+  m_LocalPosition: {x: -0.059161015, y: -0.000036814214, z: -0.000016219616}
+  m_LocalScale: {x: 1.28466, y: 1.2846597, z: 1.2846597}
+  m_Children: []
+  m_Father: {fileID: 7476064402901009138}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5345374664608824739
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5943287024832327155}
+  m_Layer: 0
+  m_Name: D_woodboss_all
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5943287024832327155
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5345374664608824739}
+  m_LocalRotation: {x: -2.1648903e-17, y: -0.7071068, z: -2.1648903e-17, w: 0.7071068}
+  m_LocalPosition: {x: 1.6814096e-10, y: 0.13438012, z: -0.0038466114}
+  m_LocalScale: {x: 1.09675, y: 1.09675, z: 1.09675}
+  m_Children:
+  - {fileID: 635908066338261273}
+  m_Father: {fileID: 3363746763046815612}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5694835321348699178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1467490659837051729}
+  m_Layer: 0
+  m_Name: B_woodboss_R_hand06
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1467490659837051729
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5694835321348699178}
+  m_LocalRotation: {x: -0.083853416, y: -0.1781356, z: 0.08004017, w: 0.97715396}
+  m_LocalPosition: {x: -0.051471423, y: 0.000000014969368, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 9049878414486627454}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5920519525969752130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1568911070818439026}
+  m_Layer: 0
+  m_Name: B_woodboss_leaf_04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1568911070818439026
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5920519525969752130}
+  m_LocalRotation: {x: -0.02052478, y: -0.13382106, z: -0.16310436, w: 0.9772756}
+  m_LocalPosition: {x: -0.3558701, y: 0.24794772, z: -0.07020492}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 635908066338261273}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6411813660335260516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5754461006689298052}
+  m_Layer: 0
+  m_Name: B_woodboss_R_hand02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5754461006689298052
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6411813660335260516}
+  m_LocalRotation: {x: 0.07560586, y: 0.36639005, z: -0.18742074, w: 0.9082486}
+  m_LocalPosition: {x: -0.10794482, y: 0.0000000044153543, z: 0.000000024144196}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2371422810147586812}
+  - {fileID: 641828050245676520}
+  - {fileID: 9049878414486627454}
+  - {fileID: 673625580557925221}
+  m_Father: {fileID: 1987542239627189395}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6466934115041011046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9049878414486627454}
+  m_Layer: 0
+  m_Name: B_woodboss_R_hand05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9049878414486627454
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6466934115041011046}
+  m_LocalRotation: {x: 0.3396211, y: 0.0895717, z: 0.0032970356, w: 0.9362818}
+  m_LocalPosition: {x: -0.16784683, y: -0.0026873492, z: 0.017284565}
+  m_LocalScale: {x: 1.0000001, y: 0.87954426, z: 1.0000001}
+  m_Children:
+  - {fileID: 1467490659837051729}
+  m_Father: {fileID: 5754461006689298052}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6486056546443471649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8056998586985620116}
+  m_Layer: 0
+  m_Name: B_woodboss_L_hand03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8056998586985620116
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6486056546443471649}
+  m_LocalRotation: {x: -0.3844762, y: 0.11178852, z: -0.1580369, w: 0.9026105}
+  m_LocalPosition: {x: -0.14561604, y: 0.017723545, z: -0.000008204961}
+  m_LocalScale: {x: 0.6788662, y: 0.67886597, z: 0.67886615}
+  m_Children:
+  - {fileID: 2771386766249408681}
+  m_Father: {fileID: 6978331212206076493}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6984540618617044582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8207977785602750969}
+  m_Layer: 0
+  m_Name: D_woodboss_tongue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8207977785602750969
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6984540618617044582}
+  m_LocalRotation: {x: -0.50094163, y: -0.49958214, z: 0.49885604, w: 0.50061744}
+  m_LocalPosition: {x: -0.20053154, y: -0.000055578796, z: 0.1637083}
+  m_LocalScale: {x: 0.5082592, y: 0.50825924, z: 0.5082592}
+  m_Children:
+  - {fileID: 6217961673065557443}
+  m_Father: {fileID: 635908066338261273}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6994069111034138322
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2771386766249408681}
+  m_Layer: 0
+  m_Name: B_woodboss_L_hand04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2771386766249408681
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6994069111034138322}
+  m_LocalRotation: {x: -0.07435406, y: -0.21490557, z: 0.055906877, w: 0.9721942}
+  m_LocalPosition: {x: -0.059122242, y: -0.0000000052098743, z: -0.000000008353359}
+  m_LocalScale: {x: 1.28466, y: 1.2846599, z: 1.28466}
+  m_Children: []
+  m_Father: {fileID: 8056998586985620116}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7051377698815197248
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 673625580557925221}
+  m_Layer: 0
+  m_Name: B_woodboss_R_hand07
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &673625580557925221
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7051377698815197248}
+  m_LocalRotation: {x: -0.42677227, y: 0.122302234, z: -0.2204821, w: 0.8685018}
+  m_LocalPosition: {x: -0.1653341, y: 0.027945748, z: 0.005161352}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 0.8795442}
+  m_Children:
+  - {fileID: 8769305197564066867}
+  m_Father: {fileID: 5754461006689298052}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7246960986313450110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1987542239627189395}
+  m_Layer: 0
+  m_Name: B_woodboss_R_hand01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1987542239627189395
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7246960986313450110}
+  m_LocalRotation: {x: -0.002987494, y: 0.00043209596, z: 0.9051137, w: -0.42515895}
+  m_LocalPosition: {x: -0.25519252, y: 0.06375884, z: -0.01240511}
+  m_LocalScale: {x: 1.1369524, y: 0.9999999, z: 0.99999994}
+  m_Children:
+  - {fileID: 5754461006689298052}
+  m_Father: {fileID: 635908066338261273}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7791949244835534186
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 641828050245676520}
+  m_Layer: 0
+  m_Name: B_woodboss_R_hand03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &641828050245676520
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7791949244835534186}
+  m_LocalRotation: {x: 0.5756346, y: 0.16532293, z: 0.15491194, w: 0.7856943}
+  m_LocalPosition: {x: -0.16743983, y: -0.015334701, z: -0.008868627}
+  m_LocalScale: {x: 0.8795442, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 9214481357971727706}
+  m_Father: {fileID: 5754461006689298052}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7973534671182603879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2618867042453218095}
+  m_Layer: 0
+  m_Name: B_woodboss_paper_04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2618867042453218095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7973534671182603879}
+  m_LocalRotation: {x: -0.00016430405, y: 0.107560806, z: 0.0015200909, w: 0.99419737}
+  m_LocalPosition: {x: -0.053207107, y: 0.0000000038320156, z: 0.0000000022581113}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2371422810147586812}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8396230251824968868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5940269578687480599}
+  m_Layer: 0
+  m_Name: B_woodboss_horn_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5940269578687480599
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8396230251824968868}
+  m_LocalRotation: {x: 0.017752698, y: -0.14414996, z: 0.13844348, w: 0.9796628}
+  m_LocalPosition: {x: -0.31432307, y: -0.018704576, z: -0.006098014}
+  m_LocalScale: {x: 0.99999976, y: 1.0000002, z: 1}
+  m_Children:
+  - {fileID: 4631880401205918202}
+  m_Father: {fileID: 635908066338261273}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8434347313261083391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7279365836183914593}
+  m_Layer: 0
+  m_Name: B_woodboss_L_hand07
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7279365836183914593
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8434347313261083391}
+  m_LocalRotation: {x: 0.43384048, y: 0.16110396, z: 0.26355487, w: 0.8463845}
+  m_LocalPosition: {x: -0.14197768, y: -0.02091814, z: 0.008894992}
+  m_LocalScale: {x: 0.6730319, y: 0.67303205, z: 0.67303175}
+  m_Children:
+  - {fileID: 7417181452222452760}
+  m_Father: {fileID: 6978331212206076493}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8667243474176084718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7051410491250691938}
+  - component: {fileID: 1805007349301759372}
+  m_Layer: 0
+  m_Name: wood
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7051410491250691938
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8667243474176084718}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0.00062460423, y: -0.028668145, z: -0.0017738326}
+  m_LocalScale: {x: -1, y: -1, z: -1}
+  m_Children: []
+  m_Father: {fileID: 3363746763046815612}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1805007349301759372
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8667243474176084718}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 73de099ee7a8c134484afa6b1f725509, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: aa9fe2b9b699cd34a99624c612add782, type: 3}
+  m_Bones:
+  - {fileID: 1137018334010690790}
+  - {fileID: 635908066338261273}
+  - {fileID: 1568911070818439026}
+  - {fileID: 8033557727335146224}
+  - {fileID: 1122768769428812122}
+  - {fileID: 6978331212206076493}
+  - {fileID: 2656091277010949075}
+  - {fileID: 5853984839313403149}
+  - {fileID: 5754461006689298052}
+  - {fileID: 9049878414486627454}
+  - {fileID: 2371422810147586812}
+  - {fileID: 2618867042453218095}
+  - {fileID: 8207977785602750969}
+  - {fileID: 3781676166599798813}
+  - {fileID: 1886042558517324210}
+  - {fileID: 1987542239627189395}
+  - {fileID: 6217961673065557443}
+  - {fileID: 5940269578687480599}
+  - {fileID: 4559066503912573467}
+  - {fileID: 4113520138414162780}
+  - {fileID: 7476064402901009138}
+  - {fileID: 7279365836183914593}
+  - {fileID: 8769305197564066867}
+  - {fileID: 673625580557925221}
+  - {fileID: 641828050245676520}
+  - {fileID: 4631880401205918202}
+  - {fileID: 6125040038113367553}
+  - {fileID: 8056998586985620116}
+  - {fileID: 3953451858036013269}
+  - {fileID: 7417181452222452760}
+  - {fileID: 2771386766249408681}
+  - {fileID: 1467490659837051729}
+  - {fileID: 9214481357971727706}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 635908066338261273}
+  m_AABB:
+    m_Center: {x: -0.2351278, y: -0.006160021, z: 0.061292388}
+    m_Extent: {x: 0.3012359, y: 0.31344855, z: 0.16615868}
+  m_DirtyAABB: 0
+--- !u!1 &8944404207954417931
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4631880401205918202}
+  m_Layer: 0
+  m_Name: B_woodboss_horn_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4631880401205918202
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8944404207954417931}
+  m_LocalRotation: {x: -0.4649234, y: -0.5889551, z: 0.6378047, w: -0.17373346}
+  m_LocalPosition: {x: -0.23344122, y: 0.000000025707259, z: -0.000000027293913}
+  m_LocalScale: {x: 1, y: 1.0000002, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 5940269578687480599}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8955083473075901856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1137018334010690790}
+  m_Layer: 0
+  m_Name: B_woodboss_leaf_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1137018334010690790
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8955083473075901856}
+  m_LocalRotation: {x: -0.11250789, y: -0.10904043, z: -0.12716936, w: 0.97942847}
+  m_LocalPosition: {x: -0.32243744, y: 0.15729494, z: -0.035960615}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 635908066338261273}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &9120473929911611065
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7417181452222452760}
+  m_Layer: 0
+  m_Name: B_woodboss_L_hand08
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7417181452222452760
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9120473929911611065}
+  m_LocalRotation: {x: 0.061126843, y: -0.2407315, z: -0.07290392, w: 0.96591765}
+  m_LocalPosition: {x: -0.059164442, y: -0.000000007405904, z: -7.120356e-10}
+  m_LocalScale: {x: 1.2846599, y: 1.28466, z: 1.2846599}
+  m_Children: []
+  m_Father: {fileID: 7279365836183914593}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
