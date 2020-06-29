@@ -71,7 +71,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -100,7 +100,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -185,8 +185,10 @@ ModelImporter:
   referencedClips:
   - 107d9d96b269eff408fc51d41f654499
   - 0c57709a55db20a47a7892c0d4f4a910
+  - 12bf0479c63052b45bf41c23409f3229
   - cb2acf4c7eb45f040a028bef4fba95fc
   - 6b1575f96f7802043b3d688e561bb0c0
+  - c0a5acb1b6bab3f4a9ecc2946d9dd125
   - aa9fe2b9b699cd34a99624c612add782
   importAnimation: 1
   humanDescription:
