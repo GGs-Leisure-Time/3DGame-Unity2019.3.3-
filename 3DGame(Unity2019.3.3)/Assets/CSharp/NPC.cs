@@ -50,4 +50,9 @@ public class NPC : MonoBehaviour
             GameObject.Find("GM").GetComponent<GM>().DeadCount();
         }
     }
+
+    public void AttackPlayer()
+    {
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().HurtPlayerHP(10f);
+    }
 }

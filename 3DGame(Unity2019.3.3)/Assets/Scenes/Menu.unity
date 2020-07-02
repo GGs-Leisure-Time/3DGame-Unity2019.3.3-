@@ -619,6 +619,7 @@ GameObject:
   - component: {fileID: 1087554194}
   - component: {fileID: 1087554193}
   - component: {fileID: 1087554192}
+  - component: {fileID: 1087554195}
   m_Layer: 5
   m_Name: ExitButton
   m_TagString: Untagged
@@ -735,6 +736,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087554190}
   m_CullTransparentMesh: 0
+--- !u!95 &1087554195
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087554190}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9f376c8c29ed764489bc283fca2eebdb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1318272686
 GameObject:
   m_ObjectHideFlags: 0
@@ -953,7 +973,7 @@ MonoBehaviour:
   autoPlay: 1
   useTargetAsV3: 0
   endValueFloat: 0
-  endValueV3: {x: 0, y: 0, z: 0}
+  endValueV3: {x: 0, y: 0, z: 10}
   endValueV2: {x: 0, y: 0}
   endValueColor: {r: 0.095914595, g: 0.09411765, b: 0.85882354, a: 1}
   endValueString: 

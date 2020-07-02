@@ -784,7 +784,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 439737096}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2050934135}
+        m_MethodName: BackMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &439737096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1097,6 +1108,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: floor
+      objectReference: {fileID: 0}
+    - target: {fileID: 9017775462522808183, guid: 603f9e8b3632def43a33a67f6a2a1044,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 603f9e8b3632def43a33a67f6a2a1044, type: 3}
@@ -2762,7 +2778,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1433673373}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2050934135}
+        m_MethodName: ReturnGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1433673373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3086,7 +3113,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1576789310}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2050934135}
+        m_MethodName: PauseGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1576789310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3621,7 +3659,18 @@ MonoBehaviour:
   - eventID: 2
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1929335497}
+          m_MethodName: PointerDownMagic
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1820131628
 GameObject:
   m_ObjectHideFlags: 0
@@ -4541,6 +4590,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: '@moon_wait'
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6b1575f96f7802043b3d688e561bb0c0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: -671311480759455830, guid: 6b1575f96f7802043b3d688e561bb0c0,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5333,6 +5387,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Arrow: {fileID: 1767064171472902238, guid: 35c806268e692be4ca02e7b9277f8718, type: 3}
   ArrowPos: {fileID: 1157590519}
+  TotalHP: 200
+  HPBar: {fileID: 1222877685}
+  MagicBar: {fileID: 1118885901}
+  CanCreateMagic: 0
+  MagicObject: {fileID: 2543501207338397865, guid: f73673c65a7f3e94bae471331e0d1748,
+    type: 3}
 --- !u!1 &1951562215
 GameObject:
   m_ObjectHideFlags: 0
@@ -5430,6 +5490,26 @@ MonoBehaviour:
   MaxNum: 5
   King: {fileID: 1798400813732754799, guid: f91d005ce7f6a7a4c905013f08ee699d, type: 3}
   DeadNum: 0
+  MonsterBar: {fileID: 1197383397}
+  LevelIDString: 05
+  LevelImage:
+  - {fileID: 1329948063}
+  - {fileID: 1558528871}
+  NumberSprite:
+  - {fileID: 21300000, guid: c18628a9434bc294a985cf689e94cf4c, type: 3}
+  - {fileID: 21300000, guid: c40e9e7e7cad1314f9f0135aaafe0776, type: 3}
+  - {fileID: 21300000, guid: af3fe56ca7611234abee476d55a556db, type: 3}
+  - {fileID: 21300000, guid: 0620f6c2a0714f94e9a27022250c8170, type: 3}
+  - {fileID: 21300000, guid: 787b11310426c7a47a24acaeacdc14f7, type: 3}
+  - {fileID: 21300000, guid: f49fe951653a8704eab73f7ae0cabb2c, type: 3}
+  - {fileID: 21300000, guid: c9662d44c8aa5ef499c85b98a4cdf1b9, type: 3}
+  - {fileID: 21300000, guid: 84b481550494d1e44b1db77b5adc4396, type: 3}
+  - {fileID: 21300000, guid: e0468509645eb704fbd42a038e34e0ec, type: 3}
+  - {fileID: 21300000, guid: f0bcc30baef5d304fb6631877f3255a3, type: 3}
+  PauseObject: {fileID: 788343808}
+  MagicBar: {fileID: 1118885901}
+  MagicTime: 10
+  MagicTimeScript: 0
 --- !u!4 &2050934136
 Transform:
   m_ObjectHideFlags: 0

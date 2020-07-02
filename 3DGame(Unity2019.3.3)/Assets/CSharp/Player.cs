@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -20,6 +21,30 @@ public class Player : MonoBehaviour
     public GameObject ArrowPos;
     #endregion
 
+    #region 玩家血量
+    [Header("玩家血量")]
+    public float TotalHP;
+    float ScriptHP;
+    public Image HPBar;
+    #endregion
+
+    #region 信仰大招
+    [Header("信仰BAR條")]
+    public Image MagicBar;
+    //判斷是否已經點擊大招按鈕
+    public bool CanCreateMagic;
+    [Header("大招物件")]
+    public GameObject MagicObject;
+    //儲存動態生成出來大絕招物件
+    GameObject MagicObjectPrefab;
+    #endregion
+
+
+    private void Start()
+    {
+        ScriptHP = TotalHP;
+    }
+
     private void Update()
     {
         //持續按下滑鼠左鍵，玩家會持續面相滑鼠點擊的位置
@@ -37,13 +62,28 @@ public class Player : MonoBehaviour
                 {
                     //將射線打到的位置點代數targetpos，只要記錄xz平面的座標值
                     targetPos = new Vector3(hit.point.x, transform.position.y, hit.point.z);
-                    //使用數學內插法，讓玩家從A點慢慢轉向至B點，如果沒有使用內插法，玩家會立刻執行轉向
-                    Lookpos = Vector3.Lerp(Lookpos, targetPos, Time.deltaTime * 10);
-                    //讓玩家注視內插法的座標點
-                    transform.LookAt(Lookpos);
-                    //玩家進行攻擊
-                    GetComponent<Animator>().SetBool("att", true);
-                }
+                    if (!CanCreateMagic)
+                    {
+                        //使用數學內插法，讓玩家從A點慢慢轉向至B點，如果沒有使用內插法，玩家會立刻執行轉向
+                        Lookpos = Vector3.Lerp(Lookpos, targetPos, Time.deltaTime * 10);
+                        //讓玩家注視內插法的座標點
+                        transform.LookAt(Lookpos);
+                        //玩家進行攻擊
+                        GetComponent<Animator>().SetBool("att", true);
+                    }
+                    //如果按下大招按鈕
+                    else
+                    {
+                        //目前場景上沒有大招物件
+                        if (MagicObjectPrefab == null)
+                            //動態生成大招物件
+                            MagicObjectPrefab = Instantiate(MagicObject) as GameObject;
+                        //如果Dragon的重力沒有被開啟才可以移動
+                        if(!MagicObjectPrefab.GetComponentInChildren<Rigidbody>().useGravity)
+                        //大招物件位置 - 滑鼠位置
+                        MagicObjectPrefab.transform.position = targetPos;
+                    }
+                }             
             }
         }
 
@@ -51,10 +91,28 @@ public class Player : MonoBehaviour
         {
             GetComponent<Animator>().SetBool("att", false);
         }
+        if (Input.GetMouseButtonUp(0) && CanCreateMagic)
+        {
+            MagicObjectPrefab.GetComponentInChildren<Rigidbody>().useGravity = true;
+        }
     }
 
     public void CreatArrow()
     {
         Instantiate(Arrow, ArrowPos.transform.position, ArrowPos.transform.rotation);
+    }
+
+    public void HurtPlayerHP(float Hurt)
+    {
+        ScriptHP -= Hurt;
+        HPBar.fillAmount = ScriptHP / TotalHP;
+    }
+
+    public void PointerDownMagic()
+    {
+        if (MagicBar.fillAmount == 1)
+        {
+            CanCreateMagic = true;
+        }
     }
 }
