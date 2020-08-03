@@ -48,6 +48,15 @@ public class NPC : MonoBehaviour
             ScriptSpeed = 0;
             GetComponent<Collider>().enabled = false;
             GameObject.Find("GM").GetComponent<GM>().DeadCount();
+            //擊殺怪物增加20分
+            if (gameObject.tag == "NPC")
+                GameObject.Find("GM").GetComponent<GM>().FinalScore(20);
+            else
+            {
+                GameObject.Find("GM").GetComponent<GM>().FinalScore(100);
+                GameObject.Find("GM").GetComponent<GM>().isWin = true;
+                GameObject.Find("GM").GetComponent<GM>().GameOver(50);
+            }
         }
     }
 
